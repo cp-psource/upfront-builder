@@ -144,13 +144,13 @@ class Thx_Admin {
 			'action_slug' => Upfront_Thx_Builder_VirtualPage::get_initial_url(),
 			'admin_ajax' => admin_url('admin-ajax.php'),
 			'l10n' => array(
-				'oops' => __('Oops, something went wrong with processing your request.', UpfrontThemeExporter::DOMAIN),
-				'start_building' => __('Start Building', UpfrontThemeExporter::DOMAIN),
-				'checking' => __('Checking...', UpfrontThemeExporter::DOMAIN),
-				'creating' => __('Creating...', UpfrontThemeExporter::DOMAIN),
-				'select_media' => __('Select or Upload Media Of Your Chosen Persuasion', UpfrontThemeExporter::DOMAIN),
-				'use_media' => __('Use this media', UpfrontThemeExporter::DOMAIN),
-				'loading' => __('Loading data...', UpfrontThemeExporter::DOMAIN),
+				'oops' => __('Hoppla, bei der Bearbeitung Deiner Anfrage ist etwas schief gelaufen.', UpfrontThemeExporter::DOMAIN),
+				'start_building' => __('Beginne mit dem Bauen Deines Themes', UpfrontThemeExporter::DOMAIN),
+				'checking' => __('Überprüfung...', UpfrontThemeExporter::DOMAIN),
+				'creating' => __('Erstellen...', UpfrontThemeExporter::DOMAIN),
+				'select_media' => __('Wähle Medien Deiner gewählten Überzeugung aus oder lade sie hoch', UpfrontThemeExporter::DOMAIN),
+				'use_media' => __('Verwende dieses Medium', UpfrontThemeExporter::DOMAIN),
+				'loading' => __('Daten werden geladen...', UpfrontThemeExporter::DOMAIN),
 			),
 		));
 
@@ -284,7 +284,7 @@ class Thx_Admin {
 	private function _permalink_setup_check_notice () {
 		if (get_option('permalink_structure')) return false;
 		$msg = sprintf(
-			__('Upfront Exporter requires Pretty Permalinks to work. Please enable them <a href="%s">here</a>', UpfrontThemeExporter::DOMAIN),
+			__('Upfront Exporter benötigt Pretty Permalinks, um zu funktionieren. Bitte aktiviere sie <a href="%s">hier</a>', UpfrontThemeExporter::DOMAIN),
 			admin_url('/options-permalink.php')
 		);
 		return $msg;
