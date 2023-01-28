@@ -2,7 +2,7 @@
 /**
  * Template Name: %name% Page template
  *
- * @package WordPress
+ * @package ClassicPress
  * @subpackage %slug%
  */
 

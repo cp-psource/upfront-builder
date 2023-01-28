@@ -1,13 +1,14 @@
 <?php
 /*
 Plugin Name: Upfront Builder
-Plugin URI: https://n3rds.work
-Description: Der schnellste und visuellste Weg, um WordPress-Themes zu erstellen. Jetzt kann jeder WordPress-Themes entwerfen, erstellen, exportieren, teilen und verkaufen.
+Plugin URI: https://upfront.n3rds.work/upfront-framework/upfront-builder/
+Description: Der schnellste und visuellste Weg, um ClassicPress-Themes zu erstellen. Jetzt kann jeder ClassicPress-Themes entwerfen, erstellen, exportieren, teilen und verkaufen.
 Version: 1.1.9
 Author: WMS N@W
 Text Domain: upfront_thx
 Author URI: https://n3rds.work
 License: GPLv2 or later
+Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/
 */
 
 /*

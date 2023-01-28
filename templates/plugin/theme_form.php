@@ -39,7 +39,7 @@
 		<?php if ($is_conflicted) { ?>
 			<div class="notice notice-warning">
 				<p>
-					<?php esc_html_e("Dieser Designname steht in Konflikt mit einem Design aus dem WordPress-Designrepository:", UpfrontThemeExporter::DOMAIN); ?>
+					<?php esc_html_e("Dieser Designname steht in Konflikt mit einem Design aus dem ClassicPress-Designrepository:", UpfrontThemeExporter::DOMAIN); ?>
 					<?php if(!empty($is_conflicted['url'])) { ?> <a href="<?php echo esc_url($is_conflicted['url']); ?>" target="_blank"> <?php } ?>
 						<?php echo esc_html($is_conflicted['theme']); ?>
 					<?php if(!empty($is_conflicted['url'])) { ?> </a> <?php } ?>

@@ -122,8 +122,7 @@ function init_new () {
 
 function init_existing () {
 	$("#existing-theme")
-		//.find(".uf-thx-theme a").click(function (e) { //jQuery3 Fix
-		.find(".uf-thx-theme a").on( "click", function (e) {
+		.find(".uf-thx-theme a").on("click", function (e) {
 			e.preventDefault();
 			e.stopPropagation();
 
