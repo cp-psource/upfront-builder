@@ -1,6 +1,14 @@
 Change Log
 ============
 
+1.2.0 - 2023-01-02
+-------------------------------------------------------------------------------
+- Fix: Veraltetes PhP Kompatibilität bis PhP8.0
+- Fix: Veraltetes jQuery
+- Add: Neue Hilferessourcen
+- Add: ClassicPress Only Unterstützung
+- Add: Release nun unter PSOURCE
+
 1.1.9 - 2017-07-25
 -------------------------------------------------------------------------------
 - Fix: External links entered in Code element get removed on Layout export

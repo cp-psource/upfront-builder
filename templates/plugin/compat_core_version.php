@@ -9,7 +9,7 @@
 		<?php echo wp_kses(
 		sprintf(
 			__('Du benötigst UpFront Core in Version v1.4 oder höher, damit UpFront Builder ordnungsgemäß funktioniert. <a href="%s" target="_blank">Hol es dir hier.</a>', UpfrontThemeExporter::DOMAIN),
-			'https://n3rds.work/shop/artikel/category/piestingtal-source-themes/'
+			'https://upfront.n3rds.work/upfront-framework/'
 		), array(
 			'a' => array(
 				'href' => array(),

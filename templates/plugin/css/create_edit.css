@@ -241,7 +241,7 @@
 	opacity: 1;
 }
 .uf-thx-theme.current:after {
-	content:'Active';
+	content:'Aktiv';
 	position: absolute;
 	font-size:14px;
 	background-color: #00cf8d;

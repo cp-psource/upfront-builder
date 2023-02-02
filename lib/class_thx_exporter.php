@@ -1936,7 +1936,7 @@ error_log(debug_backtrace());
 			'thx-theme-licence-uri' => false,
 			'thx-theme-tags' => false,
 			'thx-theme-text-domain' => false,
-			'thx-activate_theme' => true,
+			'thx-activate_theme' => false,
 			'thx-export_with_images' => true,
 			'thx-selected_preset' => true,
 		));

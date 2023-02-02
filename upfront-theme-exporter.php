@@ -3,7 +3,7 @@
 Plugin Name: Upfront Builder
 Plugin URI: https://upfront.n3rds.work/upfront-framework/upfront-builder/
 Description: Der schnellste und visuellste Weg, um ClassicPress-Themes zu erstellen. Jetzt kann jeder ClassicPress-Themes entwerfen, erstellen, exportieren, teilen und verkaufen.
-Version: 1.1.9
+Version: 1.2.0
 Author: WMS N@W
 Text Domain: upfront_thx
 Author URI: https://n3rds.work
@@ -27,12 +27,12 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
-
 require 'psource/psource-plugin-update/psource-plugin-updater.php';
-$MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=upfront-builder', 
+use Psource\PluginUpdateChecker\v5\PucFactory;
+$MyUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=upfront-builder',
 	__FILE__, 
-	'upfront-builder' 
+	'upfront-builder'
 );
 
 require_once dirname(__FILE__) . '/lib/util.php';

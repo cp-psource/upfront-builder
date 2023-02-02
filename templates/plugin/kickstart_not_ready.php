@@ -5,7 +5,7 @@
 		<?php echo wp_kses(
 			sprintf(
 				__('<a href="%s" target="_blank">Hol es dir hier.</a>', UpfrontThemeExporter::DOMAIN),
-				'https://n3rds.work/shop/artikel/category/piestingtal-source-themes/'
+				'https://upfront.n3rds.work/upfront-framework/'
 			), array(
 				'a' => array(
 					'href' => array(),
