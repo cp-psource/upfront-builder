@@ -80,7 +80,7 @@ class Thx_L10n {
 			'image_variant' => __('Bildvariante', UpfrontThemeExporter::DOMAIN),
 			'edit_content_style' => __('Inhaltslayout bearbeiten', UpfrontThemeExporter::DOMAIN),
 			'edit_image_insert' => __('Bild einfügen bearbeiten', UpfrontThemeExporter::DOMAIN),
-			'variant_name' => __('Benennediese Einfügung:', UpfrontThemeExporter::DOMAIN),
+			'variant_name' => __('Benenne diese Einfügung:', UpfrontThemeExporter::DOMAIN),
 			'variant_css' => __('CSS bearbeiten', UpfrontThemeExporter::DOMAIN),
 			'variant_wrap_label' => __('Wrapper', UpfrontThemeExporter::DOMAIN),
 			'variant_wrap_info' => __('Wrapper', UpfrontThemeExporter::DOMAIN),

@@ -75,7 +75,7 @@ class Thx_Kickstart {
 		if (!current_user_can('manage_options')) wp_send_json_error(__('Auf keinen Fall.', UpfrontThemeExporter::DOMAIN));
 
 		// Can we even do this?
-		if (!$this->_has_upfront()) wp_send_json_error(__('Core nicht verfügbar.', UpfrontThemeExporter::DOMAIN));
+		if (!$this->_has_upfront()) wp_send_json_error(__('Framework nicht verfügbar.', UpfrontThemeExporter::DOMAIN));
 
 		// We can. Yay.
 		switch_theme('upfront');

@@ -55,7 +55,7 @@ class Thx_Admin {
 		$links[] = sprintf(
 			'<a href="%s">%s</a>',
 			esc_url(admin_url('admin.php?page=upfront-builder')),
-			__('Settings', UpfrontThemeExporter::DOMAIN)
+			__('Einstellungen', UpfrontThemeExporter::DOMAIN)
 		);
 		return $links;
 	}
