@@ -60,7 +60,7 @@ class Thx_Kickstart {
 		'</span>';
 		$msg = $this->_has_upfront()
 			? __('%s Aktiviere ein UpFront-Design, um UpFront-Builder zu verwenden', UpfrontThemeExporter::DOMAIN)
-			: __('%s Um UpFront-Builder verwenden zu können, muss Upfront Core vorhanden sein', UpfrontThemeExporter::DOMAIN)
+			: __('%s Um UpFront-Builder verwenden zu können, muss das Upfront Framework vorhanden sein', UpfrontThemeExporter::DOMAIN)
 		;
 		array_unshift($meta, sprintf($msg, $icon));
 

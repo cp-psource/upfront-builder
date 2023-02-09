@@ -5,7 +5,7 @@ Theme URI: https://upfront.n3rds.work/upfront-framework/upfront-builder/
 Tags: classicpress, theme, builder, framework
 Requires at least: 4.9
 Tested up to: 5.0
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -151,6 +151,11 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 
 
 == ChangeLog ==
+
+= 1.2.1 Feb09 DerN3rd =
+
+* Englische Übersetzungen eingefügt
+* PhP8 Fixes
 
 = 1.2.0 Jan23 DerN3rd =
 

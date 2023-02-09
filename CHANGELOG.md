@@ -1,6 +1,11 @@
 Change Log
 ============
 
+1.2.1 - 2023-02-09
+-------------------------------------------------------------------------------
+- Fix: Veraltetes PhP Kompatibilität bis PhP8.1
+- Add: Englische Übersetzungen
+
 1.2.0 - 2023-01-02
 -------------------------------------------------------------------------------
 - Fix: Veraltetes PhP Kompatibilität bis PhP8.0

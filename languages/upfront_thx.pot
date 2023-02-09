@@ -158,7 +158,7 @@ msgid "%s Aktiviere ein UpFront-Design, um UpFront-Builder zu verwenden"
 msgstr ""
 
 #: lib/class_thx_kickstart.php:63
-msgid "%s Um UpFront-Builder verwenden zu können, muss Upfront Core vorhanden sein"
+msgid "%s Um UpFront-Builder verwenden zu können, muss das Upfront Framework vorhanden sein"
 msgstr ""
 
 #: lib/class_thx_kickstart.php:75 lib/class_thx_kickstart.php:91
