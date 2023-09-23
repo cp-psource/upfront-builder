@@ -148,7 +148,7 @@ class Thx_Admin {
 				'start_building' => __('Beginne mit dem Bauen Deines Themes', UpfrontThemeExporter::DOMAIN),
 				'checking' => __('Überprüfung...', UpfrontThemeExporter::DOMAIN),
 				'creating' => __('Erstellen...', UpfrontThemeExporter::DOMAIN),
-				'select_media' => __('Wähle Medien Deiner gewählten Überzeugung aus oder lade sie hoch', UpfrontThemeExporter::DOMAIN),
+				'select_media' => __('Wähle Medien Deiner Wahl aus oder lade sie hoch', UpfrontThemeExporter::DOMAIN),
 				'use_media' => __('Verwende dieses Medium', UpfrontThemeExporter::DOMAIN),
 				'loading' => __('Daten werden geladen...', UpfrontThemeExporter::DOMAIN),
 			),

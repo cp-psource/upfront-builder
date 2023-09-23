@@ -133,7 +133,7 @@ var Command_MyThemes = Upfront.Views.Editor.Command.extend({
 
 var Command_BuilderHelp = Command_Help.extend({
 	on_click: function () {
-		var url = 'https://premium.wpmudev.org/upfront-documentation/upfront-builder',
+		var url = 'https://upfront.n3rds.work/upfront-framework/',
 			win = window.open(url, "_blank")
 		;
 		win.focus();
