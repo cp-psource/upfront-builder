@@ -1,0 +1,788 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Upfront Builder\n"
+"POT-Creation-Date: 2023-09-23 11:22+0200\n"
+"PO-Revision-Date: 2023-09-23 11:25+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: upfront-theme-exporter.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: lib/class_thx_admin.php:58
+msgid "Einstellungen"
+msgstr "Réglages"
+
+#: lib/class_thx_admin.php:147
+#, fuzzy
+msgid "Hoppla, bei der Bearbeitung Deiner Anfrage ist etwas schief gelaufen."
+msgstr "Oups, quelque chose s'est mal passé lors du traitement de ta demande."
+
+#: lib/class_thx_admin.php:148
+#, fuzzy
+msgid "Beginne mit dem Bauen Deines Themes"
+msgstr "Commence à construire ton thème"
+
+#: lib/class_thx_admin.php:149
+#, fuzzy
+msgid "Überprüfung..."
+msgstr "Vérification..."
+
+#: lib/class_thx_admin.php:150
+#, fuzzy
+msgid "Erstellen..."
+msgstr "Créer..."
+
+#: lib/class_thx_admin.php:151
+#, fuzzy
+msgid "Wähle Medien Deiner Wahl aus oder lade sie hoch"
+msgstr "Sélectionne ou télécharge les médias de ton choix"
+
+#: lib/class_thx_admin.php:152
+#, fuzzy
+msgid "Verwende dieses Medium"
+msgstr "Utilise ce média"
+
+#: lib/class_thx_admin.php:153
+msgid "Daten werden geladen..."
+msgstr "Chargement des données..."
+
+#: lib/class_thx_admin.php:287
+#, fuzzy, php-format
+msgid ""
+"Upfront Exporter benötigt Pretty Permalinks, um zu funktionieren. Bitte "
+"aktiviere sie <a href=\"%s\">hier</a>"
+msgstr ""
+"Upfront Exporter nécessite Pretty Permalinks pour fonctionner. Veuillez les "
+"activer <a href=\"%s\">ici</a>"
+
+#: lib/class_thx_exporter.php:186
+#, fuzzy, php-format
+msgid "Archiv %s"
+msgstr "Archives %s"
+
+#: lib/class_thx_exporter.php:186
+#, fuzzy, php-format
+msgid "Single %s"
+msgstr "Simple %s"
+
+#: lib/class_thx_exporter.php:196
+#, fuzzy
+msgid "(generic)"
+msgstr "(générique)"
+
+#: lib/class_thx_exporter.php:445
+#, fuzzy
+msgid ""
+"Bitte Schriftart umbenennen. Die Standardschriftart von UpFront heißt "
+"\"icomoon\"."
+msgstr ""
+"Veuillez renommer la police. La police par défaut d'UpFront s'appelle "
+"\"icomoon\"."
+
+#: lib/class_thx_exporter.php:520
+#, fuzzy
+msgid "Darf dies nicht."
+msgstr "Ne doit pas."
+
+#: lib/class_thx_exporter.php:526
+#, fuzzy
+msgid "Ungültige Schriftdateiinformationen."
+msgstr "Informations sur le fichier de polices non valides."
+
+#: lib/class_thx_exporter.php:532
+#, fuzzy
+msgid "Datei konnte nicht gefunden werden."
+msgstr "Fichier introuvable."
+
+#: lib/class_thx_exporter.php:576
+#, fuzzy
+msgid "Fehler beim Entfernen der Datei."
+msgstr "Erreur lors de la suppression du fichier."
+
+#: lib/class_thx_exporter.php:626
+#, fuzzy
+msgid "Theme & Vorlage müssen gewählt werden."
+msgstr "Le thème & le modèle doivent être choisis"
+
+#: lib/class_thx_exporter.php:729 lib/class_thx_exporter.php:793
+#, fuzzy
+msgid "Einige Daten fehlen."
+msgstr "Certaines données sont manquantes."
+
+#: lib/class_thx_exporter.php:736 lib/class_thx_exporter.php:739
+#: lib/class_thx_exporter.php:756
+#, fuzzy
+msgid "Exportiert"
+msgstr "Exporte"
+
+#: lib/class_thx_exporter.php:788
+#, fuzzy
+msgid "Das ist nicht möglich, bevor das Design erstellt wurde."
+msgstr "Cela n'est pas possible avant la création du design."
+
+#: lib/class_thx_exporter.php:1959 lib/class_thx_exporter.php:1988
+#: lib/class_thx_exporter.php:2050
+#, fuzzy
+msgid ""
+"Der von Dir gewählte Theme-Slug ist ungültig, bitte versuche es mit einem "
+"anderen."
+msgstr ""
+"Le thème que tu as choisi n'est pas valide, essaie d'en choisir un autre."
+
+#: lib/class_thx_exporter.php:1965
+#, fuzzy
+msgid "Theme mit diesem Verzeichnisnamen existiert nicht."
+msgstr "Le thème avec ce nom de répertoire n'existe pas"
+
+#: lib/class_thx_exporter.php:2006 lib/class_thx_exporter.php:2057
+#, fuzzy
+msgid "Design mit diesem Verzeichnisnamen existiert bereits."
+msgstr "Le design avec ce nom de répertoire existe déjà."
+
+#: lib/class_thx_exporter.php:2023
+#, fuzzy, php-format
+msgid ""
+"Konflikt mit Theme %s im öffentlichen Repository von wordpress.org erkannt: "
+"%s"
+msgstr ""
+"Conflit détecté avec le thème %s dans le dépôt public de wordpress.org : %s"
+
+#: lib/class_thx_exporter.php:2033
+#, fuzzy
+msgid "Alles gut"
+msgstr "Tout va bien"
+
+#: lib/class_thx_exporter.php:2045
+#, fuzzy
+msgid "Bitte beachte die Pflichtfelder."
+msgstr "Veuillez tenir compte des champs obligatoires."
+
+#: lib/class_thx_exporter.php:2168
+#, fuzzy
+msgid "Wir konnten das ursprüngliche Theme nicht finden."
+msgstr "Nous n'avons pas trouvé le thème original."
+
+#: lib/class_thx_exporter.php:2183
+#, fuzzy
+msgid "Wir konnten den neuen, konfliktfreien Theme-Slug nicht lösen."
+msgstr "Nous n'avons pas réussi à résoudre le nouveau Theme-Slug sans conflit."
+
+#: lib/class_thx_exporter.php:2193
+#, fuzzy
+msgid "Das ursprüngliche Theme erscheint leer."
+msgstr "Le thème d'origine apparaît vide."
+
+#: lib/class_thx_exporter.php:2282
+#, fuzzy
+msgid "Fehlende erforderliche Themenauswahl."
+msgstr "Manque de sélection de sujets nécessaires."
+
+#: lib/class_thx_exporter.php:2443
+#, fuzzy
+msgid "einige Testinhalte"
+msgstr "quelques contenus de test"
+
+#: lib/class_thx_exporter.php:2453
+#, fuzzy
+msgid "einige gestylte Testinhalte"
+msgstr "quelques contenus de test stylisés"
+
+#: lib/class_thx_exporter.php:2466
+#, fuzzy
+msgid "Beispielbeitrag"
+msgstr "Exemple de contribution"
+
+#: lib/class_thx_kickstart.php:62
+#, fuzzy, php-format
+msgid "%s Aktiviere ein UpFront-Design, um UpFront-Builder zu verwenden"
+msgstr "%s Active un design UpFront pour utiliser UpFront-Builder"
+
+#: lib/class_thx_kickstart.php:63
+#, fuzzy, php-format
+msgid ""
+"%s Um UpFront-Builder verwenden zu können, muss das Upfront Framework "
+"vorhanden sein"
+msgstr ""
+"%s Pour pouvoir utiliser UpFront-Builder, le framework Upfront doit être "
+"disponible"
+
+#: lib/class_thx_kickstart.php:75 lib/class_thx_kickstart.php:91
+#, fuzzy
+msgid "Auf keinen Fall."
+msgstr "En aucun cas."
+
+#: lib/class_thx_kickstart.php:78
+#, fuzzy
+msgid "Framework nicht verfügbar."
+msgstr "Framework non disponible."
+
+#: lib/class_thx_kickstart.php:127
+#, fuzzy
+msgid "Hoppla, etwas ist schief gelaufen."
+msgstr "Oups, quelque chose a mal tourné."
+
+#: lib/class_thx_kickstart.php:128
+#, fuzzy
+msgid ""
+"Alles gut, warte bitte, während wir Dich auf Deine UpFront-Builder-Seite "
+"weiterleiten."
+msgstr ""
+"Tout va bien, attends s'il te plaît pendant que nous te redirigeons vers ta "
+"page UpFront-Builder."
+
+#: lib/class_thx_l10n.php:46 upfront-theme-exporter.php:272
+#, fuzzy
+msgid "UpFront-Builder"
+msgstr "UpFront-Builder"
+
+#: lib/class_thx_l10n.php:48
+#, fuzzy
+msgid ""
+"Das Laden des Upfront Builders kann eine Weile dauern (insbesondere beim "
+"ersten Mal), bitte warte einen Moment, es geht sofort los :)"
+msgstr ""
+"Le chargement de l'Upfront Builder peut prendre un certain temps (surtout la "
+"première fois), merci de patienter un instant, il démarre immédiatement :)"
+
+#: lib/class_thx_l10n.php:49
+#, fuzzy
+msgid "Seitenname (leer lassen für single-page.php)"
+msgstr "Nom de la page (laisser vide pour single-page.php)"
+
+#: lib/class_thx_l10n.php:50
+#, fuzzy
+msgid "Frisch starten"
+msgstr "Démarrer frais"
+
+#: lib/class_thx_l10n.php:51
+#, fuzzy
+msgid "Beginne mit vorhandenen Layout"
+msgstr "Commencer avec la mise en page existante"
+
+#: lib/class_thx_l10n.php:52
+#, fuzzy
+msgid "Neues Layout erstellen"
+msgstr "Créer une nouvelle mise en page"
+
+#: lib/class_thx_l10n.php:53
+#, fuzzy
+msgid "Gespeichertes Layout bearbeiten"
+msgstr "Modifier une mise en page enregistrée"
+
+#: lib/class_thx_l10n.php:54
+#, fuzzy
+msgid "Theme speichern"
+msgstr "Enregistrer le thème"
+
+#: lib/class_thx_l10n.php:55
+#, fuzzy
+msgid "Responsiv"
+msgstr "Responsive"
+
+#: lib/class_thx_l10n.php:56
+msgid "Raster bearbeiten"
+msgstr "Modifier la grille"
+
+#: lib/class_thx_l10n.php:59
+#, fuzzy
+msgid "Layouts verwalten"
+msgstr "Gérer les mises en page"
+
+#: lib/class_thx_l10n.php:60
+#, fuzzy
+msgid "Layout erstellen"
+msgstr "Créer une mise en page"
+
+#: lib/class_thx_l10n.php:61
+#, fuzzy
+msgid "Layout bearbeiten"
+msgstr "Modifier la mise en page"
+
+#: lib/class_thx_l10n.php:62
+#, fuzzy
+msgid "Vorhandenes Layout bearbeiten"
+msgstr "Modifier une mise en page existante"
+
+#: lib/class_thx_l10n.php:63
+#, fuzzy
+msgid "Wird geladen..."
+msgstr "En cours de chargement..."
+
+#: lib/class_thx_l10n.php:64 templates/plugin/theme_form.php:116
+#, fuzzy
+msgid "Theme aktivieren"
+msgstr "Activer le thème"
+
+#: lib/class_thx_l10n.php:65
+#, fuzzy
+msgid "Möchtest Du aktivieren"
+msgstr "Tu veux activer"
+
+#: lib/class_thx_l10n.php:66
+#, fuzzy
+msgid "Theme"
+msgstr "Thème"
+
+#: lib/class_thx_l10n.php:67
+msgid "Ja"
+msgstr "Oui"
+
+#: lib/class_thx_l10n.php:68
+msgid "Nein"
+msgstr "Non"
+
+#: lib/class_thx_l10n.php:71
+#, fuzzy, php-format
+msgid "Aktuelles Layout: <b>%s</b>"
+msgstr "Mise en page actuelle : <b>%s</b>"
+
+#: lib/class_thx_l10n.php:72
+#, fuzzy
+msgid "Layouts"
+msgstr "Mises en page"
+
+#: lib/class_thx_l10n.php:73
+#, fuzzy
+msgid "Medien"
+msgstr "Médias"
+
+#: lib/class_thx_l10n.php:74
+msgid "Medium"
+msgstr "Médium:"
+
+#: lib/class_thx_l10n.php:75
+#, fuzzy
+msgid "UI / Sprites"
+msgstr "IU / Sprites"
+
+#: lib/class_thx_l10n.php:76
+#, fuzzy
+msgid "Meine Themes"
+msgstr "Mes thèmes"
+
+#: lib/class_thx_l10n.php:77
+#, fuzzy
+msgid "Themes"
+msgstr "Thèmes"
+
+#: lib/class_thx_l10n.php:80
+#, fuzzy
+msgid "Bildvariante"
+msgstr "Variante d'image"
+
+#: lib/class_thx_l10n.php:81
+#, fuzzy
+msgid "Inhaltslayout bearbeiten"
+msgstr "Modifier la mise en page du contenu"
+
+#: lib/class_thx_l10n.php:82
+#, fuzzy
+msgid "Bild einfügen bearbeiten"
+msgstr "Insérer une image modifier"
+
+#: lib/class_thx_l10n.php:83
+#, fuzzy
+msgid "Benenne diese Einfügung:"
+msgstr "Nommez cette insertion :"
+
+#: lib/class_thx_l10n.php:84
+#, fuzzy
+msgid "CSS bearbeiten"
+msgstr "Modifier le CSS"
+
+#: lib/class_thx_l10n.php:85 lib/class_thx_l10n.php:86
+#, fuzzy
+msgid "Wrapper"
+msgstr "Enveloppeur"
+
+#: lib/class_thx_l10n.php:87 lib/class_thx_l10n.php:88
+msgid "Bild"
+msgstr "Image"
+
+#: lib/class_thx_l10n.php:89 lib/class_thx_l10n.php:90
+#, fuzzy
+msgid "Bildbeschriftung"
+msgstr "Légende de l'image"
+
+#: lib/class_thx_l10n.php:93
+#, fuzzy
+msgid ""
+"<p>Dies ist die UpFront-Builder-Oberfläche, hier erstellst/bearbeitest Du "
+"ein verteilbares Design.</p><p>Das bedeutet, dass alle Änderungen, die Du "
+"über diese Oberfläche vornimmst, in Deinem Designordner gespeichert werden.</"
+"p>"
+msgstr ""
+"<p>Il s'agit de l'interface UpFront Builder, c'est ici que tu crées/modifies "
+"un design distribuable.</p><p>Cela signifie que toutes les modifications que "
+"tu effectues via cette interface sont enregistrées dans ton dossier de "
+"design.</p>"
+
+#: lib/class_thx_l10n.php:94
+#, fuzzy
+msgid ""
+"<p>Dies ist die UpFront-Editor-Oberfläche, hier nimmst Du "
+"standortspezifische Anpassungen vor.</p><p>Das bedeutet, dass alle "
+"Änderungen, die Du über diese Oberfläche vornimmst, spezifisch für Deine "
+"Webseite sind und alle mit Builder vorgenommenen Änderungen außer Kraft "
+"setzen.</p>"
+msgstr ""
+"<p>Il s'agit de l'interface de l'éditeur UpFront, où tu effectues des "
+"adaptations spécifiques au site.</p><p>Cela signifie que toutes les "
+"modifications que tu effectues via cette interface sont spécifiques à ton "
+"site web et annulent toutes les modifications effectuées avec Builder.</p>"
+
+#: lib/class_thx_l10n.php:95
+#, fuzzy
+msgid "Ich habe verstanden"
+msgstr "J'ai compris"
+
+#: lib/class_thx_l10n.php:96
+#, fuzzy
+msgid "Nicht mehr zeigen"
+msgstr "Ne plus montrer"
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:56
+#, fuzzy
+msgid "View details"
+msgstr "Voir les détails"
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:79
+#, fuzzy, php-format
+msgid "Weitere Informationen zu %s"
+msgstr "Plus d'informations sur %s"
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:130
+#, fuzzy
+msgid "Auf neuere Version prüfen"
+msgstr "Vérifier la disponibilité d'une version plus récente"
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:217
+#, fuzzy, php-format
+msgctxt "the plugin title"
+msgid "Keine neuere Version von %s im PSOURCE REPO gefunden."
+msgstr "Aucune version plus récente de %s n'a été trouvée dans PSOURCE REPO."
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:219
+#, fuzzy, php-format
+msgctxt "the plugin title"
+msgid "Im PSOURCE REPO ist eine <b>neuere Version von %s</b> verfügbar!."
+msgstr ""
+"Une <b>version plus récente de %s</b> est disponible dans PSOURCE REPO !"
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:221
+#, fuzzy, php-format
+msgctxt "the plugin title"
+msgid ""
+"Entschuldige, es konnte nicht festgestellt werden, ob Updates für %s "
+"verfügbar sind."
+msgstr ""
+"Désolé, il n'a pas été possible de déterminer si des mises à jour étaient "
+"disponibles pour %s."
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:227
+#, fuzzy, php-format
+msgid "Unbekannter PSOURCE-UPDATTER-Status \"%s\""
+msgstr "Statut inconnu de PSOURCE-UPDATTER \"%s\""
+
+#: psource/psource-plugin-update/Puc/v5p0/Vcs/PluginUpdateChecker.php:98
+#, fuzzy
+msgid "There is no changelog available."
+msgstr "Il n'y a pas de journal des changements disponible."
+
+#: templates/plugin/admin_errors.php:13
+#, fuzzy
+msgid ""
+"Beim Verarbeiten Deiner Anfrage ist ein Fehler aufgetreten, weil ein "
+"Parameter ungültig ist oder fehlt."
+msgstr ""
+"Une erreur est survenue lors du traitement de ta demande, car un paramètre "
+"est invalide ou manquant."
+
+#: templates/plugin/admin_errors.php:14
+#, fuzzy
+msgid "Du bist nicht berechtigt, dies zu tun."
+msgstr "Tu n'as pas le droit de faire cela."
+
+#: templates/plugin/admin_errors.php:15
+#, fuzzy
+msgid "Ups, da scheint etwas schief gelaufen zu sein."
+msgstr "Oups, il semble que quelque chose se soit mal passé."
+
+#: templates/plugin/compat_core_version.php:3
+#, fuzzy, php-format
+msgid "Deine aktuelle UpFront Framework ist v%s."
+msgstr "Ton UpFront Framework actuel est v%s."
+
+#: templates/plugin/compat_core_version.php:4
+#, fuzzy
+msgid "Deine aktuelle Version ist zu alt."
+msgstr "Ta version actuelle est trop ancienne."
+
+#: templates/plugin/compat_core_version.php:11
+#, fuzzy, php-format
+msgid ""
+"Du benötigst UpFront Framework in Version v1.4 oder höher, damit UpFront "
+"Builder ordnungsgemäß funktioniert. <a href=\"%s\" target=\"_blank\">Hol es "
+"Dir hier.</a>"
+msgstr ""
+"Tu as besoin d'UpFront Framework version 1.4 ou supérieure pour qu'UpFront "
+"Builder fonctionne correctement. <a href=\"%s\" target=\"_blank\">Obtenez-le "
+"ici.</a>"
+
+#: templates/plugin/create_edit.php:42
+#, fuzzy
+msgid "UpFront Builder"
+msgstr "UpFront Builder"
+
+#: templates/plugin/create_edit.php:46
+#, fuzzy
+msgid ""
+"Erstelle ein einzigartiges, ansprechendes UpFront-Theme, das Du nach "
+"Herzenslust exportieren, teilen, verkaufen oder optimieren kannst."
+msgstr ""
+"Crée un thème UpFront unique et attrayant que tu peux exporter, partager, "
+"vendre ou optimiser à ta guise."
+
+#: templates/plugin/create_edit.php:54 templates/plugin/create_edit.php:65
+#: upfront-theme-exporter.php:288
+#, fuzzy
+msgid "Neues UpFront-Theme erstellen"
+msgstr "Créer un nouveau thème UpFront"
+
+#: templates/plugin/create_edit.php:74
+#, fuzzy
+msgid "Vorhandenes UpFront-Theme bearbeiten"
+msgstr "Modifier un thème UpFront existant"
+
+#: templates/plugin/create_edit.php:104
+#, fuzzy
+msgid "Theme bearbeiten"
+msgstr "Modifier le thème"
+
+#: templates/plugin/create_edit.php:108
+#, fuzzy
+msgid "Theme herunterladen"
+msgstr "Télécharger le thème"
+
+#: templates/plugin/create_edit.php:113
+#, fuzzy
+msgid "Theme-Informationen bearbeiten"
+msgstr "Modifier les informations sur le thème"
+
+#: templates/plugin/create_edit.php:121
+#, fuzzy
+msgid "Keine vorhandenen UpFront-Themes, bitte erstelle ein neues."
+msgstr "Aucun thème UpFront existant, veuillez en créer un nouveau."
+
+#: templates/plugin/kickstart_not_ready.php:3
+#, fuzzy
+msgid ""
+"Leider scheint auf dieser Seite kein UpFront-Framework installiert zu sein."
+msgstr ""
+"Malheureusement, il semble qu'aucun framework UpFront ne soit installé sur "
+"cette page."
+
+#: templates/plugin/kickstart_not_ready.php:4
+#, fuzzy
+msgid "Wir brauchen das, damit das Upfront Builder-Plug-in funktioniert."
+msgstr "Nous en avons besoin pour que le plug-in Upfront Builder fonctionne."
+
+#: templates/plugin/kickstart_not_ready.php:7
+#, fuzzy, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Hol es Dir hier.</a>"
+msgstr "<a href=\"%s\" target=\"_blank\">Obtenez-le ici.</a>"
+
+#: templates/plugin/kickstart_ready.php:3
+#, fuzzy
+msgid ""
+"Auf Deiner Webseite scheint das UpFront-Theme nicht aktiv zu sein, das für "
+"die Verwendung des UpFront Builder-Plug-ins erforderlich ist."
+msgstr ""
+"Sur ton site web, le thème UpFront nécessaire à l'utilisation du plug-in "
+"UpFront Builder ne semble pas être actif."
+
+#: templates/plugin/kickstart_ready.php:6
+#, fuzzy
+msgid "Wir können das für Dich beheben:"
+msgstr "Nous pouvons y remédier pour toi :"
+
+#: templates/plugin/kickstart_ready.php:8
+#, fuzzy
+msgid "Erstelle ein UpFront-Theme"
+msgstr "Créer un thème UpFront"
+
+#: templates/plugin/kickstart_ready.php:11
+#, fuzzy
+msgid "Diese Mitteilung nicht mehr anzeigen"
+msgstr "Ne pas afficher cet avis plus"
+
+#: templates/plugin/theme_form.php:29
+#, fuzzy
+msgid "Wie möchtest du dein neues UpFront-Theme nennen?"
+msgstr "Comment veux-tu appeler ton nouveau thème UpFront ?"
+
+#: templates/plugin/theme_form.php:37
+#, fuzzy, php-format
+msgid "%s Theme Info"
+msgstr "%s Info sur le thème"
+
+#: templates/plugin/theme_form.php:42
+#, fuzzy
+msgid ""
+"Dieser Designname steht in Konflikt mit einem Design aus dem ClassicPress-"
+"Designrepository:"
+msgstr ""
+"Ce nom de design est en conflit avec un design du référentiel de designs "
+"ClassicPress :"
+
+#: templates/plugin/theme_form.php:48
+#, fuzzy
+msgid "Dies kann später zu Problemen mit automatischen Updates führen."
+msgstr ""
+"Cela peut entraîner plus tard des problèmes avec les mises à jour "
+"automatiques."
+
+#: templates/plugin/theme_form.php:50
+#, fuzzy
+msgid "Klone das UpFront-Theme und behebe dies"
+msgstr "Clone le thème UpFront et corrige cela"
+
+#: templates/plugin/theme_form.php:57
+#, fuzzy
+msgid "Bild des Themes:"
+msgstr "Image du thème :"
+
+#: templates/plugin/theme_form.php:66
+#, fuzzy
+msgid "Bild ändern"
+msgstr "Modifier l'image"
+
+#: templates/plugin/theme_form.php:70
+#, fuzzy
+msgid "Theme Name:"
+msgstr "Nom du thème :"
+
+#: templates/plugin/theme_form.php:71
+#, fuzzy
+msgid "Name für Dein UpFront-Theme"
+msgstr "Nom de ton thème UpFront"
+
+#: templates/plugin/theme_form.php:74
+#, fuzzy
+msgid "Theme Verzeichnis:"
+msgstr "Répertoire de thèmes :"
+
+#: templates/plugin/theme_form.php:75
+#, fuzzy
+msgid "Basisverzeichnis für Dein UpFront-Theme"
+msgstr "Répertoire de base pour ton thème UpFront"
+
+#: templates/plugin/theme_form.php:78
+#, fuzzy
+msgid "Autorenname:"
+msgstr "Nom de l'auteur :"
+
+#: templates/plugin/theme_form.php:79
+#, fuzzy
+msgid "Dein Name"
+msgstr "Ton nom"
+
+#: templates/plugin/theme_form.php:82
+#, fuzzy
+msgid "Autoren-URL:"
+msgstr "URL de l'auteur :"
+
+#: templates/plugin/theme_form.php:83
+#, fuzzy
+msgid "Deine URL"
+msgstr "Ton URL"
+
+#: templates/plugin/theme_form.php:86
+#, fuzzy
+msgid "Theme Beschreibung:"
+msgstr "Description du thème :"
+
+#: templates/plugin/theme_form.php:90
+#, fuzzy
+msgid "Theme version:"
+msgstr "Version du thème :"
+
+#: templates/plugin/theme_form.php:94
+#, fuzzy
+msgid "Theme URL:"
+msgstr "URL du thème :"
+
+#: templates/plugin/theme_form.php:98
+#, fuzzy
+msgid "Theme-Lizenz:"
+msgstr "Licence du thème :"
+
+#: templates/plugin/theme_form.php:102
+#, fuzzy
+msgid "Lizenz-URL:"
+msgstr "URL de la licence :"
+
+#: templates/plugin/theme_form.php:106
+#, fuzzy
+msgid "Theme-Tags:"
+msgstr "Les balises du thème :"
+
+#: templates/plugin/theme_form.php:110
+#, fuzzy
+msgid "Theme Textdomain:"
+msgstr "Thème domaine de texte :"
+
+#: templates/plugin/theme_form.php:122
+#, fuzzy
+msgid "Mit Bildern exportieren"
+msgstr "Exporter avec des images"
+
+#: templates/plugin/theme_form.php:129
+msgid "Änderungen speichern"
+msgstr "Enregistrer les modifications"
+
+#: upfront-theme-exporter.php:280
+#, fuzzy
+msgid "Aktuelles UpFront-Theme anpassen"
+msgstr "Personnaliser le thème UpFront actuel"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Upfront Builder"
+msgstr "Constructeur d'upfront"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://upfront.n3rds.work/upfront-framework/upfront-builder/"
+msgstr "https://upfront.n3rds.work/upfront-framework/upfront-builder/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Der schnellste und visuellste Weg, um ClassicPress-Themes zu erstellen. "
+"Jetzt kann jeder ClassicPress-Themes entwerfen, erstellen, exportieren, "
+"teilen und verkaufen."
+msgstr ""
+"Le moyen le plus rapide et le plus visuel de créer des thèmes ClassicPress. "
+"Désormais, tout le monde peut concevoir, créer, exporter, partager et vendre "
+"des thèmes ClassicPress."
+
+#. Author of the plugin/theme
+msgid "WMS N@W"
+msgstr "WMS N@W"
+
+#. Author URI of the plugin/theme
+msgid "https://n3rds.work"
+msgstr "https://n3rds.work"
