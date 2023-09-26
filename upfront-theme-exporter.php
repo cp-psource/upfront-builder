@@ -4,7 +4,7 @@ Plugin Name: Upfront Builder
 Plugin URI: https://upfront.n3rds.work/upfront-framework/upfront-builder/
 Description: Der schnellste und visuellste Weg, um ClassicPress-Themes zu erstellen. Jetzt kann jeder ClassicPress-Themes entwerfen, erstellen, exportieren, teilen und verkaufen.
 Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/
-Version: 1.2.2
+Version: 1.2.3
 Author: WMS N@W
 Author URI: https://n3rds.work
 Text Domain: upfront_thx
