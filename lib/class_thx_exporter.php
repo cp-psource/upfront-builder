@@ -18,6 +18,8 @@ class Thx_Exporter {
 
 	private $_theme_exports_images = true; // Export images by default, for legacy themes
 
+	private $_template; // Hier deklarieren
+
 	/**
 	 * Just basic, context-free bootstrap here.
 	 */
