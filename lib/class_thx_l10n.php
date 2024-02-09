@@ -53,7 +53,7 @@ class Thx_L10n {
 			'edit_saved_layout' => __('Gespeichertes Layout bearbeiten', UpfrontThemeExporter::DOMAIN),
 			'export_str' => __('Theme speichern', UpfrontThemeExporter::DOMAIN),
 			'create_responsive_layouts' => __('Responsiv', UpfrontThemeExporter::DOMAIN),
-			'edit_grid' => __('Raster bearbeiten', UpfrontThemeExporter::DOMAIN),
+			'edit_grid' => __('Raster', UpfrontThemeExporter::DOMAIN),
 
 			// modal.js
 			'manage_layouts' => __('Layouts verwalten', UpfrontThemeExporter::DOMAIN),
@@ -62,7 +62,7 @@ class Thx_L10n {
 			'edit_existing_layout' => __('Vorhandenes Layout bearbeiten', UpfrontThemeExporter::DOMAIN),
 			'loading' => __('Wird geladen...', UpfrontThemeExporter::DOMAIN),
 			'activate_theme' => __('Theme aktivieren', UpfrontThemeExporter::DOMAIN),
-			'activate_message' => __('Möchtest Du aktivieren', UpfrontThemeExporter::DOMAIN),
+			'activate_message' => __('Aktivieren von', UpfrontThemeExporter::DOMAIN),
 			'theme' => __('Theme', UpfrontThemeExporter::DOMAIN),
 			'yes' => __('Ja', UpfrontThemeExporter::DOMAIN),
 			'no' => __('Nein', UpfrontThemeExporter::DOMAIN),

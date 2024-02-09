@@ -216,7 +216,7 @@ msgid "Responsiv"
 msgstr ""
 
 #: lib/class_thx_l10n.php:56
-msgid "Raster bearbeiten"
+msgid "Raster"
 msgstr ""
 
 #: lib/class_thx_l10n.php:59
@@ -539,7 +539,7 @@ msgid "Neues UpFront-Theme erstellen"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "https://upfront.n3rds.work/upfront-framework/upfront-builder/"
+msgid "https://cp-psource.github.io/upfront-builder/"
 msgstr ""
 
 #. Description of the plugin/theme

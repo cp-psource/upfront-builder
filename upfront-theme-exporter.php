@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Upfront Builder
-Plugin URI: https://upfront.n3rds.work/upfront-framework/upfront-builder/
+Plugin URI: https://cp-psource.github.io/upfront-builder/
 Description: Der schnellste und visuellste Weg, um ClassicPress-Themes zu erstellen. Jetzt kann jeder ClassicPress-Themes entwerfen, erstellen, exportieren, teilen und verkaufen.
 Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/
-Version: 1.2.3
+Version: 1.2.4
 Author: WMS N@W
 Author URI: https://n3rds.work
 Text Domain: upfront_thx
@@ -13,19 +13,24 @@ License: GPLv2 or later
 */
 
 /*
-Copyright 2014-2023 WMS N@W (https://n3rds.work)
+Copyright 2014-2024 WMS N@W (https://n3rds.work)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License (Version 2 - GPLv2) as published by
 the Free Software Foundation.
 */
-require 'psource/psource-plugin-update/psource-plugin-updater.php';
-use Psource\PluginUpdateChecker\v5\PucFactory;
-$MyUpdateChecker = PucFactory::buildUpdateChecker(
-	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=upfront-builder',
-	__FILE__, 
-	'upfront-builder'
-);
+
+require 'psource/psource-plugin-update/plugin-update-checker.php';
+	use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+ 
+	$myUpdateChecker = PucFactory::buildUpdateChecker(
+		'https://github.com/cp-psource/upfront-builder',
+		__FILE__,
+		'upfront-builder'
+	);
+	
+	//Set the branch that contains the stable release.
+	$myUpdateChecker->setBranch('master');
 
 require_once dirname(__FILE__) . '/lib/util.php';
 require_once dirname(__FILE__) . '/lib/class_thx_l10n.php';

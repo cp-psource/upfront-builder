@@ -332,8 +332,8 @@ msgid "https://n3rds.work"
 msgstr "https://n3rds.work"
 
 #. Plugin URI of the plugin/theme
-msgid "https://upfront.n3rds.work/upfront-framework/upfront-builder/"
-msgstr "https://upfront.n3rds.work/upfront-framework/upfront-builder/"
+msgid "https://cp-psource.github.io/upfront-builder/"
+msgstr "https://cp-psource.github.io/upfront-builder/"
 
 #: lib/class_thx_l10n.php:95
 msgid "Ich habe verstanden"
@@ -424,7 +424,7 @@ msgid "Nicht mehr zeigen"
 msgstr "Don't show anymore"
 
 #: lib/class_thx_l10n.php:56
-msgid "Raster bearbeiten"
+msgid "Raster"
 msgstr "Edit grid"
 
 #: lib/class_thx_l10n.php:55
