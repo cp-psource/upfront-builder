@@ -49,10 +49,10 @@ upfrontrjs.define(function () {
 			if (Upfront.Application.is_builder()) {
 				Upfront.Util.post({
 					action: 'upfront_list_theme_layouts'
-				}).success(function(response){
+				}).done(function(response){
 					me.saved_layouts = response.data;
 					deferred.resolve(response.data);
-				}).error(function(){
+				}).fail(function() {
 					deferred.reject();
 				});
 			} else setTimeout(deferred.reject);
@@ -67,10 +67,10 @@ upfrontrjs.define(function () {
 			if (Upfront.Application.is_builder()) {
 				Upfront.Util.post({
 					action: 'upfront_thx-get-themes'
-				}).success(function(response){
+				}).done(function(response){
 					me.themes = response;
 					deferred.resolve(response);
-				}).error(function(){
+				}).fail(function() {
 					deferred.reject();
 				});
 			} else setTimeout(deferred.reject);
@@ -84,12 +84,12 @@ upfrontrjs.define(function () {
 				Upfront.Util.post({
 					action: 'upfront_thx-create-theme',
 					form: this._build_query(data)
-				}).success(function(response){
+				}).done(function(response){
 					if ( response && response.error )
 						deferred.reject(response.error);
 					else
 						deferred.resolve();
-				}).error(function(){
+				}).fail(function() {
 					deferred.reject();
 				});
 			} else setTimeout(deferred.reject);
@@ -102,7 +102,7 @@ upfrontrjs.define(function () {
 			Upfront.Util.post({
 				action: 'upfront_thx-export-element-styles',
 				data: data
-			}).success(function(response){
+			}).done(function(response){
 				if ( response && response.error ) {
 					Upfront.Views.Editor.notify(response.error);
 					return;
@@ -113,7 +113,7 @@ upfrontrjs.define(function () {
 					Upfront.data.styles[data.elementType].push(data.stylename);
 
 				Upfront.Views.Editor.notify(Upfront.Settings.l10n.global.behaviors.style_exported);
-			}).error(function(){
+			}).fail(function() {
 				Upfront.Views.Editor.notify(Upfront.Settings.l10n.global.behaviors.style_export_fail);
 			});
 		},
@@ -200,12 +200,12 @@ upfrontrjs.define(function () {
 			Upfront.Util.post({
 				action: 'upfront_thx-export-layout',
 				data: data
-			}).success(function(response){
+			}).done(function(response){
 				if ( response && response.error )
 					deferred.reject(response.error);
 				else
 					Exporter._save_presets(deferred);
-			}).error(function(){
+			}).fail(function() {
 				deferred.reject();
 			});
 			return deferred.promise();

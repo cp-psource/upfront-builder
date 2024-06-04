@@ -86,7 +86,7 @@ function init_new () {
 				action: 'upfront_thx-check-theme',
 				name: data['thx-theme-name'] || '',
 				mode: "theme"
-			}).success(function(response) {
+			}).done(function(response) {
 				var error = parseInt((response || {}).error, 10),
 					msg = (response || {}).msg || ''
 				;
@@ -98,18 +98,18 @@ function init_new () {
 					action: 'upfront_thx-create-theme',
 					mode: "theme",
 					form: _.map(data, function(value, key){ return key + '=' + escape(value); }).join('&')
-				}).success(function(response) {
+				}).done(function(response) {
 					if (!slug && response && "theme" in response) {
 						slug = (response.theme || {directory: false}).directory;
 					}
 					if (slug) window.location = base_url.replace(/\/theme/, '/' + slug);
 					else window.location.reload();
-				}).error(function(){
+				}).fail(function() {
 					show_error();
 					$me.text(((_thx || {}).l10n || {}).start_building || 'Start Building');
 				});
 
-			}).error(function(){
+			}).fail(function() {
 				show_error();
 			}).always(function () {
 				$me.text(((_thx || {}).l10n || {}).start_building || 'Start Building');
@@ -151,10 +151,10 @@ function init_existing () {
 				action: 'upfront_thx-get-edit-theme-form',
 				mode: "theme",
 				selected: selected_theme,
-			}).success(function(response) {
+			}).done(function(response) {
 				$edit_form_content.html(response);
 				$edit_form_container.show();
-			}).error(function(){
+			}).fail(function() {
 				show_error();
 			}).always(function () {
 				// Just clean up the swapped label
@@ -218,9 +218,9 @@ function init_existing () {
 				action: 'upfront_thx-update-theme',
 				mode: "theme",
 				form: _.map(data, function(value, key){ return key + '=' + escape(value); }).join('&')
-			}).success(function(response) {
+			}).done(function(response) {
 				window.location.reload();
-			}).error(function(){
+			}).fail(function() {
 				show_error();
 			});
 
@@ -241,7 +241,7 @@ function init_existing () {
 				action: 'upfront_thx-clone-theme',
 				mode: "theme",
 				form: _.map(data, function(value, key){ return key + '=' + escape(value); }).join('&')
-			}).success(function (response) {
+			}).done(function (response) {
 				window.location.reload();
 			}).error(function (rsp) {
 				var error = (((rsp || {}).responseJSON || {}).error || {}).message || false;
