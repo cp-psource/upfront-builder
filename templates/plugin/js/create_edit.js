@@ -97,7 +97,8 @@ function init_new () {
 				$.post(_thx.admin_ajax, {
 					action: 'upfront_thx-create-theme',
 					mode: "theme",
-					form: _.map(data, function(value, key){ return key + '=' + escape(value); }).join('&')
+					form: _.map(data, function(value, key){ return key + '=' + encodeURIComponent(value); }).join('&')
+					//form: _.map(data, function(value, key){ return key + '=' + encodeURIComponent(value); }).join('&')
 				}).done(function(response) {
 					if (!slug && response && "theme" in response) {
 						slug = (response.theme || {directory: false}).directory;
@@ -217,7 +218,7 @@ function init_existing () {
 			$.post(_thx.admin_ajax, {
 				action: 'upfront_thx-update-theme',
 				mode: "theme",
-				form: _.map(data, function(value, key){ return key + '=' + escape(value); }).join('&')
+				form: _.map(data, function(value, key){ return key + '=' + encodeURIComponent(value); }).join('&')
 			}).done(function(response) {
 				window.location.reload();
 			}).fail(function() {
@@ -240,7 +241,7 @@ function init_existing () {
 			$.post(_thx.admin_ajax, {
 				action: 'upfront_thx-clone-theme',
 				mode: "theme",
-				form: _.map(data, function(value, key){ return key + '=' + escape(value); }).join('&')
+				form: _.map(data, function(value, key){ return key + '=' + encodeURIComponent(value); }).join('&')
 			}).done(function (response) {
 				window.location.reload();
 			}).error(function (rsp) {

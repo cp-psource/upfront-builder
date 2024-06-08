@@ -3,17 +3,16 @@
 Plugin Name: Upfront Builder
 Plugin URI: https://cp-psource.github.io/upfront-builder/
 Description: Der schnellste und visuellste Weg, um ClassicPress-Themes zu erstellen. Jetzt kann jeder ClassicPress-Themes entwerfen, erstellen, exportieren, teilen und verkaufen.
-Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/
 Version: 1.2.4
-Author: WMS N@W
-Author URI: https://n3rds.work
+Author: PSOURCE
+Author URI: https://github.com/cp-psource
 Text Domain: upfront_thx
 Domain Path: /languages
 License: GPLv2 or later
 */
 
 /*
-Copyright 2014-2024 WMS N@W (https://n3rds.work)
+Copyright 2014-2024 PSOURCE (https://github.com/cp-psource)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License (Version 2 - GPLv2) as published by

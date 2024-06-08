@@ -1,4 +1,4 @@
-# Copyright (C) 2023 WMS N@W
+# Copyright (C) 2023 PSOURCE
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
@@ -549,7 +549,7 @@ msgid ""
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "WMS N@W"
+msgid "PSOURCE"
 msgstr ""
 
 #. Author URI of the plugin/theme

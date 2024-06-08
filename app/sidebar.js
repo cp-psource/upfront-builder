@@ -133,7 +133,7 @@ var Command_MyThemes = Upfront.Views.Editor.Command.extend({
 
 var Command_BuilderHelp = Command_Help.extend({
 	on_click: function () {
-		var url = 'https://upfront.n3rds.work/upfront-framework/',
+		var url = 'https://cp-psource.github.io/upfront/',
 			win = window.open(url, "_blank")
 		;
 		win.focus();

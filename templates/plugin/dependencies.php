@@ -13,7 +13,7 @@ jQuery(document).on("upfront-load", function () {
 		current_layout_label: <?php echo json_encode($layout); ?>
 	};
 	upfrontrjs.require(['<?php echo esc_url($root_url) ?>app/main.js'], function () {
-		Upfront.Util.log("Booting exporter");
+		Upfront.Util.log("Boot-Exporteur");
 	});
 });
 </script>

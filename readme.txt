@@ -1,6 +1,5 @@
 === UpFront Builder ===
-Contributors: DerN3rd (WMS N@W)
-Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/
+Contributors: DerN3rd (PSOURCE)
 Plugin URI: https://cp-psource.github.io/upfront-builder/
 Tags: classicpress, theme, builder, framework
 Requires at least: 4.9

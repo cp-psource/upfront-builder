@@ -5,7 +5,7 @@
 		<?php echo wp_kses(
 			sprintf(
 				__('<a href="%s" target="_blank">Hol es Dir hier.</a>', UpfrontThemeExporter::DOMAIN),
-				'https://upfront.n3rds.work/upfront-framework/'
+				'https://cp-psource.github.io/upfront/'
 			), array(
 				'a' => array(
 					'href' => array(),
